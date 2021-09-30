@@ -1,0 +1,9 @@
+name: DialogsYaml
+main: ru.leonidm.dialogs.yaml
+version: 1.0
+api-version: 1.13
+depend: [DialogsM]
+commands:
+  dyaml:
+    usage: /dyaml [dialog/quest/npc] [name]
+    description: DialogsYaml
