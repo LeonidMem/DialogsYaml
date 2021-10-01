@@ -11,7 +11,7 @@ public class DialogsYaml extends JavaPlugin {
     public void onEnable() {
         instance = this;
         Bukkit.getPluginManager().registerEvents(new DialogsEventsHandler(), this);
-        getCommand("dyaml").setExecutor(new DialogsYaml());
+        getCommand("dyaml").setExecutor(new DialogsYamlCommand());
         getLogger().info("Enabled!");
     }
 
