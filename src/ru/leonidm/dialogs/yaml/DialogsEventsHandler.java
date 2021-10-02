@@ -5,10 +5,10 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import ru.leonidm.dialogs.DialogsAPI;
-import ru.leonidm.dialogs.events.DialogsReloadEvent;
-import ru.leonidm.dialogs.events.NPCsReloadEvent;
-import ru.leonidm.dialogs.events.QuestsReloadEvent;
+import ru.leonidm.dialogs.api.DialogsAPI;
+import ru.leonidm.dialogs.api.events.DialogsReloadEvent;
+import ru.leonidm.dialogs.api.events.NPCsReloadEvent;
+import ru.leonidm.dialogs.api.events.QuestsReloadEvent;
 
 import java.io.File;
 import java.util.HashMap;
